@@ -43,6 +43,7 @@ Captures a video recording which will include a user-read or machine-read text/d
                 `open podfile` 
     2: It should display the following details:
 
+        
         `source 'https://gitlab.com/frslabs-public/ios/vidus.git'
          
          source 'https://github.com/CocoaPods/Specs.git'
