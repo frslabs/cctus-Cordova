@@ -44,9 +44,8 @@ Captures a video recording which will include a user-read or machine-read text/d
     2: It should display the following details:
 
         
-        `source 'https://gitlab.com/frslabs-public/ios/vidus.git'
-         
-         source 'https://github.com/CocoaPods/Specs.git'
+        source 'https://gitlab.com/frslabs-public/ios/vidus.git'
+        source 'https://github.com/CocoaPods/Specs.git'
          
          platform :ios, '11.0'       //If changes are needed to platform ios version, you can change it here
          
@@ -56,7 +55,7 @@ Captures a video recording which will include a user-read or machine-read text/d
              project 'appios.xcodeproj'
              pod 'VIDUS', '1.1.0'
              pod 'Alamofire', '~> 4.9.1'
-         end`
+         end
     
     3: Use this command to install :  `pod install`
 
