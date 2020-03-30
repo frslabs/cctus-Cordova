@@ -230,8 +230,7 @@ Captures a video recording which will include a user-read or machine-read text/d
                 "videoDeclarationSpokenMethod": 1,
                 "videoDeclarationText": "I certify that the information I am provided is true and complete to the best of my knowledge."
             },
-            "videoImagePath": "/data/data/com.nous.inglife
-io.cordova.hellocordova/files/videosdk/video-1551249277243.mp4"
+            "videoImagePath": "/data/data/com.nous.inglifeio.cordova.hellocordova/files/videosdk/video-1551249277243.mp4"
         }
     ```
 
