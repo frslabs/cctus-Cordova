@@ -49,7 +49,7 @@ Captures a video recording which will include a user-read or machine-read text/d
          use_frameworks!
          target 'appios' do
              project 'appios.xcodeproj'
-             pod 'VIDUS', '1.0.1'
+             pod 'VIDUS', '1.1.0'
              pod 'Alamofire', '~> 4.9.1'
          end`
     
