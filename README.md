@@ -262,7 +262,7 @@ password <YOUR_PASSOWRD>
             "error": "Activity closed unexpectedly"
         }
     ```
-    ## Vidus Error Codes
+## Vidus IOS Error Codes
 
 Following error codes will be returned on the `onVidusFailure` method of the callback
 
