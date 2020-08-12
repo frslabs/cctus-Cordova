@@ -262,3 +262,26 @@ password <YOUR_PASSOWRD>
             "error": "Activity closed unexpectedly"
         }
     ```
+    ## Vidus Error Codes
+
+Following error codes will be returned on the `onVidusFailure` method of the callback
+
+| CODE | DESCRIPTION                  |
+| ---- | ---------------------------- |
+| 803  | Camera Permission deny             |
+| 804  | SDK is interrupted       |
+| 805  | Vidus SDK license expire            |
+| 806  | Vidus SDK license is invalid |
+| 807  | Invalid Config         |
+| 808  | Transaction fail       |
+| 809  | Internet is not available             |
+| 810  | Screen recording permision deny             |
+| 812  | Upload audio to server fail           |
+| 813  | Microphone permission deny            |
+| 814  | Upload screen images fail            |
+| 815  | Secret number verification fail            |
+| 818  | Upload screen recorded video fail           |
+| 819  | Timeout             |
+| 820  | Minimum time duration for recording is not set            |
+| 821  | Recording Video is Failed            |
+
