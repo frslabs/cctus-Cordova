@@ -168,7 +168,7 @@ password <YOUR_PASSOWRD>
         inputParamsDict['ios_licenceKey'] = 'your licence key';
     ```
 
-- Create callback methods
+- Create callback methods for andriod
 
   
     ```Javascript
