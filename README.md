@@ -262,6 +262,10 @@ password <YOUR_PASSOWRD>
             "error": "Activity closed unexpectedly"
         }
     ```
+- IOS Sample success reponse    
+    ```Javascript
+        "videoPath" =  "/var/mobile/Containers/Data/Application/718DA79D-F100-4498-90C8-4C51C777B0D4/Documents/vidus.mp4"
+    ```
 ## Vidus IOS Error Codes
 
 Following error codes will be returned on the `onVidusFailure` method of the callback
