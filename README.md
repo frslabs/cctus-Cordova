@@ -134,7 +134,7 @@ password <YOUR_PASSOWRD>
     ```
  #### 3. Usage OF IOS 
 
-    - Adding single node
+   - Adding single node
         ```Javascript
             // This unique integer id will be used to get results for the corresponding input node
             var inputParamsDict = {};
@@ -174,7 +174,6 @@ password <YOUR_PASSOWRD>
     ```Javascript
     var successCallBack = function success(result){
             console.info(result);
-
             // You can get the result of each node by the integer ID number passed in the settings.
 
             var simpleRecorderNodeResult = result[NODE_ID_SIMPLE_RECORDER];
@@ -209,8 +208,8 @@ password <YOUR_PASSOWRD>
 - Invoke IOS plugin
 
     ```Javascript
-        VIDUS.invokeVidusSDK(inputParamsDict,successCallback,errorCallback);
-    `
+    VIDUS.invokeVidusSDK(inputParamsDict,successCallback,errorCallback);
+    ```
 
 - Sample success reponse    
 
