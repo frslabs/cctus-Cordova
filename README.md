@@ -117,20 +117,20 @@ password <YOUR_PASSOWRD>
                                                                     .setVideoChallengeCodeText("Please tell verification number")
                                                                     .setVideoChallengeCodeVoiceType(VideoSDKPlugin.VOICE_TYPE_FEMALE))
 
-                        .addNode(NODE_ID_CHALLENGE_TEXT,new VideoSDKPlugin.ChallengeTextNode()
-                                                                    .setVideoChallengeText("Please tell your date of birth")
-                                                                    .setVideoChallengeTextTime(5)
-                                                                    .setVideoChallengeTextVoiceType(VideoSDKPlugin.VOICE_TYPE_MALE))  
-                                                                                    
-                        .addNode(NODE_ID_DECLARATION_MACHINE,new VideoSDKPlugin.DeclarationNode()
-                                                                    .setVideoDeclarationText("I certify that the information provided is true and complete to the best of my knowledge.")
-                                                                    .setVideoDeclarationSpokenMethod(VideoSDKPlugin.SPOKEN_BY_MACHINE)
-                                                                    .setVideoDeclarationVoiceType(VideoSDKPlugin.VOICE_TYPE_FEMALE))
+    .addNode(NODE_ID_CHALLENGE_TEXT,new VideoSDKPlugin.ChallengeTextNode()
+                                                .setVideoChallengeText("Please tell your date of birth")
+                                                .setVideoChallengeTextTime(5)
+                                                .setVideoChallengeTextVoiceType(VideoSDKPlugin.VOICE_TYPE_MALE))  
 
-                        .addNode(NODE_ID_DECLARATION_USER, new VideoSDKPlugin.DeclarationNode()
-                                                                    .setVideoDeclarationText("I certify that the information provided is true and complete to the best of my knowledge.")
-                                                                    .setVideoDeclarationSpokenMethod(VideoSDKPlugin.SPOKEN_BY_USER)
-                                                                    .setVideoDeclarationVoiceType(VideoSDKPlugin.VOICE_TYPE_MALE));
+    .addNode(NODE_ID_DECLARATION_MACHINE,new VideoSDKPlugin.DeclarationNode()
+                                                .setVideoDeclarationText("I certify that the information provided is true and complete to the best of my knowledge.")
+                                                .setVideoDeclarationSpokenMethod(VideoSDKPlugin.SPOKEN_BY_MACHINE)
+                                                .setVideoDeclarationVoiceType(VideoSDKPlugin.VOICE_TYPE_FEMALE))
+
+    .addNode(NODE_ID_DECLARATION_USER, new VideoSDKPlugin.DeclarationNode()
+                                                .setVideoDeclarationText("I certify that the information provided is true and complete to the best of my knowledge.")
+                                                .setVideoDeclarationSpokenMethod(VideoSDKPlugin.SPOKEN_BY_USER)
+                                                .setVideoDeclarationVoiceType(VideoSDKPlugin.VOICE_TYPE_MALE));
     ```
  #### 3. Usage OF IOS 
 
