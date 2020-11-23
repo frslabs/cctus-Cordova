@@ -41,7 +41,7 @@ Captures a video recording which will include a user-read or machine-read text/d
     
 ###### Save/Edit Netrc settings to install custom pod
 
-You will need a valid netrc credentials to install forus from maven, which can be obtained by contacting `support@frslabs.com`. 
+You will need a valid netrc credentials to install vidus from maven, which can be obtained by contacting `support@frslabs.com`. 
 
 1. Create or edit .netrc file under current user's home directory
 2. Write the below lines into that file, replace <YOUR_USERNAME> and <YOUR_PASSWORD> with your credentials which is shared through email and save the file.
@@ -264,7 +264,7 @@ password <YOUR_PASSOWRD>
     ```
 - IOS Sample success reponse    
     ```Javascript
-        "videoPath" =  "/var/mobile/Containers/Data/Application/718DA79D-F100-4498-90C8-4C51C777B0D4/Documents/vidus.mp4"
+     "videoPath" =  "/var/mobile/Containers/Data/Application/718DA79D-F100-4498-90C8-4C51C777B0D4/Documents/vidus.mp4"
     ```
 ## Vidus IOS Error Codes
 
