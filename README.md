@@ -68,8 +68,7 @@ password <YOUR_PASSOWRD>
          
          use_frameworks!
          
-         target 'appios' do
-             project 'appios.xcodeproj'
+         target '<Your Target Name>' do
              pod 'VIDUS', '1.1.0'
              pod 'Alamofire', '~> 4.9.1'
          end
